@@ -1,0 +1,34 @@
+{
+    "name": "cooda/php-hooks",
+    "description": "Hook system.",
+    "license": "MIT",
+    "keywords": ["hook", "event", "middleware", "pipeline"],
+    "authors": [
+        {
+            "name": "Magomed",
+            "email": "sagmag06@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cooda\\Hook\\": "src/"
+        },
+        "files": [
+            "src/Helpers/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8.*"
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
