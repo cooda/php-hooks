@@ -3,7 +3,7 @@
 namespace Tests\Lib;
 
 use Tests\Lib\SomeHook;
-use Cooda\Hook\Hook;
+use Cooda\Hooks\Hook;
 
 class SomeClass
 {

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Cooda\Hook;
+namespace Cooda\Hooks;
 
 
 

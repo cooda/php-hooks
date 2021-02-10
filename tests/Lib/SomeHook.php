@@ -4,7 +4,7 @@
 namespace Tests\Lib;
 
 
-use Cooda\Hook\Hook;
+use Cooda\Hooks\Hook;
 
 class SomeHook extends Hook
 {

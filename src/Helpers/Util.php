@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Cooda\Hook\Helpers;
+namespace Cooda\Hooks\Helpers;
 
 
-use Cooda\Hook\Hook;
+use Cooda\Hooks\Hook;
 
 class Util
 {

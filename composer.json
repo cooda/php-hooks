@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Cooda\\Hook\\": "src/"
+            "Cooda\\Hooks\\": "src/"
         },
         "files": [
             "src/Helpers/helpers.php"

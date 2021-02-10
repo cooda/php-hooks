@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Cooda\Hook;
+namespace Cooda\Hooks;
 
 
-use Cooda\Hook\Helpers\Util;
+use Cooda\Hooks\Helpers\Util;
 
 class Hook implements \ArrayAccess, \Iterator, \Countable
 {

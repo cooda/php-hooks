@@ -1,7 +1,7 @@
 <?php
 
 
-use Cooda\Hook\Helpers\Util;
+use Cooda\Hooks\Helpers\Util;
 use PHPUnit\Framework\TestCase;
 use Tests\Lib\SomeClass;
 

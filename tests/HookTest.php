@@ -1,7 +1,7 @@
 <?php
 
 
-use Cooda\Hook\Hook;
+use Cooda\Hooks\Hook;
 use PHPUnit\Framework\TestCase;
 
 class HookTest extends TestCase

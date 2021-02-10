@@ -1,14 +1,14 @@
 <?php
 
 
-use Cooda\Hook\HookBus;
+use Cooda\Hooks\HookBus;
 
 if (! function_exists('hook')) {
     /**
      * Return default Hook.
      *
      * @param array $args
-     * @return \Cooda\Hook\Hook
+     * @return \Cooda\Hooks\Hook
      */
     function hook(...$args)
     {
