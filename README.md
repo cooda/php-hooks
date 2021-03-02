@@ -10,37 +10,6 @@ The recommended way to install Hook is through
 composer require cooda/php-hooks
 ```
 
-
-Usage as event/action
------
-
-```php
-<?php
-
-use Cooda\Hooks\HookBus;
-
-$hookBus = new HookBus();
-
-$hookBus->hook('some_hook_name')->add(function ($data) {
-    echo $data ." 1\n";
-});
-$hookBus->hook('some_hook_name')->add(function ($data) {
-    echo $data ." 2\n";
-});
-$hookBus->hook('some_hook_name')->add(function ($data) {
-    echo $data ." 3\n";
-});
-
-$hookBus->hook('some_hook_name')->do("Hello world");
-```
-Output
-```
-Hello world 1
-Hello world 2
-Hello world 3
-```
-
-
 Usage
 -----
 
