@@ -110,6 +110,15 @@ class Hook implements \ArrayAccess, \Iterator, \Countable
     }
 
     /**
+     * @param mixed ...$args
+     * @return mixed|null
+     */
+    public function apply(...$args)
+    {
+        return ($result = $this->exec(...$args)) ? $result[0] : null;
+    }
+
+    /**
      * @param array $args
      * @return null
      */
